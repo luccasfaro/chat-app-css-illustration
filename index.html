@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- FAVICON -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+</head>
+
+<body>
+  <div id="background"></div>
+  <main id="container">
+    <section id="content">
+      <div id="cell-phone">
+        <div id="white-bar-cell-phone">
+          <div id="bar"></div>
+        </div>
+        <div id="header-app">
+          <div id="profile-samuel">
+            <a href=""><i class="bi bi-chevron-compact-left"></i></a>
+            <img src="images/avatar.jpg" alt="Samuel Green">
+            <div id="name-status-profile">
+              <h2>Samuel Green</h2>
+              <span>Available to Walk</span>
+            </div>
+          </div>
+            <a href=""><i class="bi bi-three-dots-vertical"></i></a>
+        </div>
+
+        <div id="chat">
+          <span class="message-left">That sounds great. I'd be happy with that.</span>
+          <span class="message-left">Could you send over some pictures of your dog, please?</span>
+          <div class="images-right">
+            <img src="images/dog-image-1.jpg" alt="Dog Picture">
+            <img src="images/dog-image-2.jpg" alt="Dog Picture">
+            <img src="images/dog-image-3.jpg" alt="Dog Picture">
+          </div>
+          <span class="message-right">Here are a few pictures. She's a happy girl!</span>
+          <span class="message-right">Can you make it?</span>
+          <span class="message-left">She looks so happy! The time we discussed works. How long shall I take her out for?</span>
+
+          <input type="radio" name="time-to-walk" id="thirty-minutes-walk">
+          <label for="thirty-minutes-walk" class="price-time-walk">
+              <div class="radio-btn"></div>
+              <span class="time-walk">30 minute walk</span>
+              <span class="price-walk">$29</span>
+          </label>
+          <input type="radio" name="time-to-walk" id="one-hour-walk">
+          <label for="one-hour-walk" class="price-time-walk">
+            <div class="radio-btn"></div>
+            <span class="time-walk">1 hour walk</span>
+            <span class="price-walk">$49</span>
+          </label>
+        </div>
+
+        <form id="submit-message">
+          <input type="text" name="type-message" id="type-message" placeholder="Type a message…">
+          <label for="submit-message-button" id="submit-btn"><i class="bi bi-chevron-right"></i></label>
+          <input type="submit" value="" id="submit-message-button">
+        </form>
+      </div>
+
+      <div id="about-app">
+        <h1>Simple booking</h1>
+        <p>Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and make bookings. Once the walk has been completed you can rate your walker and book again all through the chat.
+        </p>
+      </div>
+    </section>
+  </main>
+
+</body>
+
+</html>
