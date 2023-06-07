@@ -41,7 +41,7 @@
 ## **Preview**
 
 <div align='center'>
-<img src='./images/previewsite-chat-app-css-illusration.PNG' alt='Chat App Illustration solution preview image'>
+<img src='./images/previewsite-chat-app-css-illustration.PNG' alt='Chat App Illustration solution preview image'>
 </div>
 
 
