@@ -2,7 +2,7 @@
 
   <img src="https://www.frontendmentor.io/static/images/logo-mobile.svg" alt="frontendmentor" width="80">
 
-  <h2 align="center">NAME Card Component Solution</h2>
+  <h2 align="center">Chat App Css Illustration Solution</h2>
   <p align="center">
     <a href="https://www.frontendmentor.io/challenges/chat-app-css-illustration-O5auMkFqY" target="_blank"><strong>Frontend Mentor Challenge</strong></a>
     <br />
