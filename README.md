@@ -109,4 +109,4 @@
 <br>
 
 
-< !--  Readme Template: https://github.com/0xabdulkhalid/3-column-preview-card-component/blob/main/README.md -->
+<!--  Readme Template: https://github.com/0xabdulkhalid/3-column-preview-card-component/blob/main/README.md -->
